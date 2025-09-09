@@ -1,4 +1,4 @@
-
+//ex2 Laryssa Barbosa Soares - CB3031667
 public class TestBook {
     public static void main(String[] args) {
         Author[] authors = new Author[2];
@@ -66,3 +66,4 @@ class Book {
         return sb.toString();
     }
 }
+
