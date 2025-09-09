@@ -1,4 +1,12 @@
-//ex3 Laryssa Barbosa Soares - CB3031667
+// ex3 Laryssa Barbosa Soares - CB3031667
+/*
+Exercício 03
+Implementar classes Staff e Student com base em um modelo de herança (Person → Staff/Student)
+- Person: nome, endereço, getters/setters básicos, toString()
+- Student: programa, ano, mensalidade
+- Staff: escola/unidade, salário
+- Classe de teste deve testar todos os métodos
+*/
 class Person {
     private String name;
     private String address;
@@ -138,5 +146,6 @@ public class Main {
         System.out.println("Salário: " + st1.getPay());
     }
 }
+
 
 
