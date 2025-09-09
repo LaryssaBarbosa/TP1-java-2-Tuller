@@ -1,5 +1,23 @@
-//ex1 Laryssa Barbosa Soares - CB3031667
+// ex1 Laryssa Barbosa Soares - CB3031667
+/*
+Exercício 01
+Uma classe chamada Author é desenhada para servir de modelo para autores de livros,
+veja abaixo:
 
+- 3 atributos privados name (String), email (String), and gender (char contendo 'm' or 'f');
+- Um construtor para inicializar os atributos com base nos 3 parâmetros.
+- Não existe um construtor default para Author [Author()].
+- Criar métodos públicos: getName(), getEmail(), setEmail(), and getGender().
+- Não existe setter para name e gender, estes atributos não podem ser alterados.
+- Um método chamado toString() que retorna "Author[name=?,email=?,gender=?]",
+exemplo "Author[name=Wellington Tuler,email=tulermoraes@yahoo.com,gender=m]".
+- Escreva a classe Author e desenvolva uma de teste, com os seguintes itens:
+
+- Testar construtor.
+- Verificar o método toString().
+- Testar o Setter
+- Testar os Getters
+*/
 public class AuthorTese{
     public static void main (String[] args) {
         Author author1 = new Author("Wellington Tuler", "tulermoraes@yahoo.com", 'm');
@@ -52,4 +70,5 @@ public String toString(){
     return "Author [Nome: "+ name + ", Email : " + email + ", Gender: " + gender + "]";
 }
 }
+
 
