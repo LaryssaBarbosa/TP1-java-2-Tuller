@@ -1,3 +1,5 @@
+//ex1 Laryssa Barbosa Soares - CB3031667
+
 public class AuthorTese{
     public static void main (String[] args) {
         Author author1 = new Author("Wellington Tuler", "tulermoraes@yahoo.com", 'm');
@@ -50,3 +52,4 @@ public String toString(){
     return "Author [Nome: "+ name + ", Email : " + email + ", Gender: " + gender + "]";
 }
 }
+
