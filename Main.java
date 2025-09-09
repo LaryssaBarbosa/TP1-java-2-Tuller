@@ -1,4 +1,4 @@
-
+//ex3 Laryssa Barbosa Soares - CB3031667
 class Person {
     private String name;
     private String address;
@@ -138,4 +138,5 @@ public class Main {
         System.out.println("Salário: " + st1.getPay());
     }
 }
+
 
